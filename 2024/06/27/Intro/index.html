@@ -11,38 +11,34 @@
   <meta charset="utf-8">
 
   
-  <title>All Posts - John Doe</title>
+  <title>Intro</title>
   
-  <link rel="canonical" href="http://example.com/archives/2024/">
+  <link rel="canonical" href="http://example.com/2024/06/27/Intro/">
   
-  <meta name="description" content="">
+  <meta name="description" content="使用 Hexo &amp;amp; GitHub page 搭建个人博客（？）1 安装文档 | Hexo 按照官方文档指示安装即可  Node.js Git Hexo  2 建站建站 | Hexo $ hexo init &amp;lt;folder&amp;gt; $ cd &amp;lt;folder&amp;gt; $ npm in">
   
   
   <meta name="author" content="John Doe">
   
   
-  <meta property="og:image" content="http://example.com/images/thumbnail.jpg">
-  
   
   <meta property="og:site_name" content="Hexo" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="All Posts - John Doe" />
+  <meta property="og:title" content="Intro" />
   
-  <meta property="og:description" content="">
+  <meta property="og:description" content="使用 Hexo &amp;amp; GitHub page 搭建个人博客（？）1 安装文档 | Hexo 按照官方文档指示安装即可  Node.js Git Hexo  2 建站建站 | Hexo $ hexo init &amp;lt;folder&amp;gt; $ cd &amp;lt;folder&amp;gt; $ npm in">
   
-  <meta property="og:url" content="http://example.com/archives/2024/" />
+  <meta property="og:url" content="http://example.com/2024/06/27/Intro/" />
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="All Posts - John Doe">
+  <meta name="twitter:title" content="Intro">
   
-  <meta name="twitter:description" content="">
-  
-  
-  
-  <meta name="twitter:image" content="http://example.com/images/thumbnail.jpg">
+  <meta name="twitter:description" content="使用 Hexo &amp;amp; GitHub page 搭建个人博客（？）1 安装文档 | Hexo 按照官方文档指示安装即可  Node.js Git Hexo  2 建站建站 | Hexo $ hexo init &amp;lt;folder&amp;gt; $ cd &amp;lt;folder&amp;gt; $ npm in">
   
   
-  <meta name="twitter:url" content="http://example.com/archives/2024/" />
+  
+  
+  <meta name="twitter:url" content="http://example.com/2024/06/27/Intro/" />
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -199,48 +195,45 @@
 </div>
 
         <div class="trans">
-          
-<h2>All Posts</h2>
+            <h2>Intro</h2>
 
+  <h1 id="使用-Hexo-GitHub-page-搭建个人博客（？）"><a href="#使用-Hexo-GitHub-page-搭建个人博客（？）" class="headerlink" title="使用 Hexo &amp; GitHub page 搭建个人博客（？）"></a>使用 Hexo &amp; GitHub page 搭建个人博客（？）</h1><h2 id="1-安装"><a href="#1-安装" class="headerlink" title="1 安装"></a>1 安装</h2><p><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">文档 | Hexo</a></p>
+<p>按照官方文档指示安装即可</p>
+<ol>
+<li>Node.js</li>
+<li>Git</li>
+<li>Hexo</li>
+</ol>
+<h2 id="2-建站"><a href="#2-建站" class="headerlink" title="2 建站"></a>2 建站</h2><p><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/setup">建站 | Hexo</a></p>
+<pre><code class="highlight plaintext">$ hexo init &lt;folder&gt;
+$ cd &lt;folder&gt;
+$ npm install</code></pre>
 
-    <article>
-      <div class="row">
+<p>然后简单了解文件夹目录，注意public文件夹是后期自动生成的。</p>
+<p>暂时还不知道是否需要手动调整。</p>
+<h2 id="3-配置-更换主题"><a href="#3-配置-更换主题" class="headerlink" title="3 配置-更换主题"></a>3 配置-更换主题</h2><p><a target="_blank" rel="noopener" href="https://adisaktijrs.github.io/2020/10/11/Hexo-Minima-Theme-v1-0-Officially-Released/#Documentation">Hexo Theme: Minima v1.0 is Officially Released (adisaktijrs.github.io)</a></p>
+<p>照搬 Theme Configuration 前部分</p>
+<h2 id="4-创建存放-GitHub-page-的仓库"><a href="#4-创建存放-GitHub-page-的仓库" class="headerlink" title="4 创建存放 GitHub page 的仓库"></a>4 创建存放 GitHub page 的仓库</h2><p><a target="_blank" rel="noopener" href="https://docs.github.com/zh/pages/getting-started-with-github-pages/creating-a-github-pages-site">创建 GitHub Pages 站点 - GitHub 文档</a></p>
+<p>存储库命名为：<user>.github.io</p>
+<p>![image-20240627212431668 copy](image-20240627212431668 copy.png)</p>
+<h2 id="5-部署到-GitHub-page"><a href="#5-部署到-GitHub-page" class="headerlink" title="5 部署到 GitHub page"></a>5 部署到 GitHub page</h2><p><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/one-command-deployment#Git">部署 | Hexo</a></p>
+<p>因为这是第二次试图部署（悲）可以在被报错信息攻击前提前绕过错误。</p>
+<p><a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues/4757">Can’t deploy to github even though I have personal token in the _config.yml · Issue #4757 · hexojs&#x2F;hexo</a></p>
+<p>如果是初次设置SSH密钥，请直接询问gpt：如何在github上设置ssh key</p>
+<blockquote>
+<p>一个未解决的问题是不会用git，不知道怎么分离写作分支和部署分支，配置文件里暂时设置的是main。</p>
+</blockquote>
+<blockquote>
+<p>另一个问题是，不知道是否必需公开 GitHub 仓库才能使用page。Hexo server 的运行在这里又是否是必需？不清楚原理，有很多问题</p>
+</blockquote>
+<h2 id="6-修改Theme配置内容"><a href="#6-修改Theme配置内容" class="headerlink" title="6 修改Theme配置内容"></a>6 修改Theme配置内容</h2><p>给自己的初版留个纪念</p>
+<img src="image-20240627214823255 copy.png" alt="image-20240627214823255 copy" style="zoom:50%;" />
 
-        <div class="three columns left lit">
-          <p class="bottom">Jun 27, 2024</p>
-        </div>
-        <div class="nine columns left mb-3">
-          <a href="/2024/06/27/Intro/" class="">
-            
-              Intro
-            
-          </a>
-        </div>
-      </div>
-    </article>
+<h2 id="7-图片解析"><a href="#7-图片解析" class="headerlink" title="7 图片解析"></a>7 图片解析</h2><p><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/asset-folders#%E4%BD%BF%E7%94%A8-Markdown-%E5%B5%8C%E5%85%A5%E5%9B%BE%E7%89%87">资源文件夹 | Hexo</a></p>
+<p>这里其实还是个蛮头疼的地方，想让框架正确解析图片，需要把图片直接很丑陋地丢在_post文件夹里面……也违反了我在Typora上的设置，相当于每次还要手动把图片从文件夹里拖出来。暂时不知道有没有好的解决方法。</p>
 
-    <article>
-      <div class="row">
-
-        <div class="three columns left lit">
-          <p class="bottom">Jun 27, 2024</p>
-        </div>
-        <div class="nine columns left mb-3">
-          <a href="/2024/06/27/hello-world/" class="">
-            
-              Hello World
-            
-          </a>
-        </div>
-      </div>
-    </article>
-
-<div class="pagination-bar">
-  <ul class="pagination">
-    
-    
-  </ul>
-</div>
+  <p> — Jun 27, 2024</p>
+  
 
 
         </div>
