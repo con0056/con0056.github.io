@@ -4,11 +4,30 @@
   
     
     <entry>
-      <title>CS/基础：CS61B</title>
-      <link href="/2024/07/01/CS-%E5%9F%BA%E7%A1%80%EF%BC%9ACS61B/"/>
-      <url>/2024/07/01/CS-%E5%9F%BA%E7%A1%80%EF%BC%9ACS61B/</url>
+      <title>Plan for summer 2024</title>
+      <link href="/2024/07/01/Plan-for-summer-2024/"/>
+      <url>/2024/07/01/Plan-for-summer-2024/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>又结束了一个学期，在提心吊胆等最后几门课的成绩的同时，享受着一点阶段之间的过渡时期带来的闲暇。感谢自己在注销公众号前把之前的稿件全部都搬运进了notion，使现在还有机会回顾大三开头时的心情。</p><blockquote><p>本来没有想写些公开发表的东西，那些想到过的感觉有必要被记录的，都存进了日记。</p><p>前天刚结束缓考，在一天半的“休息”后准备重振旗鼓。想想自己从今年年初到如今度过不多不少的three quarters，这一路真是无聊又痛苦。</p><p>早先已经认定自己并不适合国内的升学制度，也不愿承担在没有经济基础的情况下投身热爱的风险，我面前只剩下两条路：忍受或者冒险。过去也曾有类似的选择。</p><p>22年11月是一个可怕的月份，我学不明白课业，虽然每天都过的疲惫而单调，脑内知识却从不见长。我总是在悲剧中乐观的猜测——我一定能学会的，只是时间问题。但国内的许多机会是不等人的。我感觉生活在一个传送带上，每到达一个处理点，却只能摇摇头说，我还没有准备好，随即被淘汰。</p><p>途中也有许多人向我表示过，那为什么你不直接放下一切，去选择自己擅长或者感兴趣的呢？背后的原因不便在这里赘述，简单来说，就是我内心中总有一个最优解，而我同样也相信，上天不会设置无法通过的考验。</p><p>—— 记于2023年9月17日</p></blockquote><p>果然如我所料，在大三上的期末，我在课业上的问题被莫名其妙地解决。而从刚过去的大三下中所收获的则让我对未来充满希望，这与过去任何一个时点上我曾拥有过的心境不同。</p><h2 id="Plan-for-summer-2024"><a href="#Plan-for-summer-2024" class="headerlink" title="Plan for summer 2024"></a>Plan for summer 2024</h2><p>课业上的问题被解决后，继续看向我惨痛的CS学习。从23年9月折腾到24年7月，我喜提了“一事无成”的荣誉称号，也大概算个比较罕见的情况。</p><p>总之，出于并不复杂但非常难说明完全的原因，我从边做项目边学习的学习路径切换到了学CS核心课。这也又是一次我几乎没有参考身边他人的意见，而完全相信自己直觉所做的决定。同样，这一次我也并不清楚自己是否会输的一败涂地，结果只能交由时间去检验。</p><hr><p>在并不仔细地比较阅读一些网站和帖子后，得出了如下的学习路线。</p><p><img src="/2024/07/01/Plan-for-summer-2024/image-20240701183721232.png" alt="image-20240701183721232"></p><p>因为还没有正式开始推进，所以还没有办法做合理的估计。第一个任务是CS61B，用我只恨不爱的Java，希望可以一周学完（小小小小声）。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 系统/计划 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Intro for CS61B</title>
+      <link href="/2024/07/01/Intro-for-CS61B/"/>
+      <url>/2024/07/01/Intro-for-CS61B/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-资料整理"><a href="#1-资料整理" class="headerlink" title="1 资料整理"></a>1 资料整理</h2><ul><li>CSdiy：<a href="https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/CS61B/">UCB CS61B: Data Structures and Algorithms - CS自学指南 (csdiy.wiki)</a></li><li>官网（只有 21 Spring 有自动的作业批改）<ul><li><a href="https://sp21.datastructur.es/">Main | CS 61B Spring 2021 (datastructur.es)</a></li></ul></li></ul><hr><ul><li><p>知乎：<a href="https://zhuanlan.zhihu.com/p/434144861">CS 61b - 开始小结cs61B自学学习课程 - 知乎 (zhihu.com)</a></p></li><li><p>中文笔记：<a href="https://blog.csdn.net/fourier_transformer/category_9856976.html">CS61B学习总结_fourier_transformer的博客-CSDN博客</a></p></li><li><p>英文笔记：<a href="https://github.com/simonguozirui/CS61B-Notes">simonguozirui&#x2F;CS61B-Notes: Class notes for CS 61B, Spring 2020 (github.com)</a></p></li><li><p>英文笔记：<a href="https://mschuldt.github.io/cs61b_lecture_notes/">cs61b Lecture Notes (mschuldt.github.io)</a></p></li></ul><hr><ul><li><p>作业：<a href="https://github.com/zjsyhjh/ucb-cs61b?tab=readme-ov-file">zjsyhjh&#x2F;ucb-cs61b: All projects about ucb-61b(2014 spring), http://www.cs.berkeley.edu/~jrs&#x2F;61b&#x2F;index.html (github.com)</a></p></li><li><p>lab 1-8 &amp; project 0-3：<a href="https://github.com/Berkeley-CS61B/skeleton-sp21">Berkeley-CS61B&#x2F;skeleton-sp21: starter code for spring 21 (github.com)</a></p></li><li><p>lab 1-11：<a href="https://github.com/Berkeley-CS61B/lectureCode-sp21">Berkeley-CS61B&#x2F;lectureCode-sp21 (github.com)</a></p></li></ul><hr><ul><li><p>英文复习：<a href="https://notes.bencuan.me/cs61b/">CS 61B: Data Structures | 🗒️ Ben’s Notes (bencuan.me)</a></p></li><li><p>中文复习：</p><ul><li><a href="https://zhuanlan.zhihu.com/p/547610778">UCB CS61B 学习笔记(1-8) - 知乎 (zhihu.com)</a></li><li><a href="https://zhuanlan.zhihu.com/p/551577260">UCB CS61B 学习笔记(Ch9-17) - 知乎 (zhihu.com)</a></li></ul></li></ul><h2 id="2-初步计划"><a href="#2-初步计划" class="headerlink" title="2 初步计划"></a>2 初步计划</h2><h3 id="1-课程大纲"><a href="#1-课程大纲" class="headerlink" title="1 课程大纲"></a>1 课程大纲</h3>]]></content>
       
       
       <categories>
