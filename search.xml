@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>使用 Hexo &amp; GitHub page 搭建个人网站</title>
+      <link href="/2024/06/28/%E4%BD%BF%E7%94%A8Hexo-GitHub-page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/"/>
+      <url>/2024/06/28/%E4%BD%BF%E7%94%A8Hexo-GitHub-page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/</url>
+      
+        <content type="html"><![CDATA[<p>记得一年半以前，朋友在搭建完他的个人博客后说，第一篇文章才不要写「如何搭建个人博客」时，我想这想法还蛮有趣的。</p><p>而我欣然做个无趣的人。</p><h2 id="1-安装"><a href="#1-安装" class="headerlink" title="1 安装"></a>1 安装</h2><ul><li><a href="https://hexo.io/zh-cn/docs/">文档 | Hexo</a></li></ul><p>按照官方文档指示安装即可</p><ol><li>Node.js</li><li>Git</li><li>Hexo</li></ol><h2 id="2-建站"><a href="#2-建站" class="headerlink" title="2 建站"></a>2 建站</h2><ul><li><a href="https://hexo.io/zh-cn/docs/setup">建站 | Hexo</a></li></ul><pre class="language-bash" data-language="bash"><code class="language-bash">$ hexo init <span class="token operator">&lt;</span>folder<span class="token operator">></span>$ <span class="token builtin class-name">cd</span> <span class="token operator">&lt;</span>folder<span class="token operator">></span>$ <span class="token function">npm</span> <span class="token function">install</span></code></pre><p>然后简单了解文件夹目录，注意 public 文件夹是后期自动生成的。暂时不知道是否需要手动调整。</p><h2 id="3-配置-更换主题"><a href="#3-配置-更换主题" class="headerlink" title="3 配置-更换主题"></a>3 配置-更换主题</h2><ul><li><a href="https://adisaktijrs.github.io/2020/10/11/Hexo-Minima-Theme-v1-0-Officially-Released/#Documentation">Hexo Theme: Minima v1.0 is Officially Released (adisaktijrs.github.io)</a></li></ul><p>照搬 Theme Configuration 前部分</p><h2 id="4-创建存放-GitHub-page-的仓库"><a href="#4-创建存放-GitHub-page-的仓库" class="headerlink" title="4 创建存放 GitHub page 的仓库"></a>4 创建存放 GitHub page 的仓库</h2><ul><li><a href="https://docs.github.com/zh/pages/getting-started-with-github-pages/creating-a-github-pages-site">创建 GitHub Pages 站点 - GitHub 文档</a></li></ul><p>存储库命名为：<code>&lt;user&gt;.github.io</code></p><h2 id="5-部署到-GitHub-page"><a href="#5-部署到-GitHub-page" class="headerlink" title="5 部署到 GitHub page"></a>5 部署到 GitHub page</h2><ul><li><a href="https://hexo.io/zh-cn/docs/one-command-deployment#Git">部署 | Hexo</a></li></ul><p>因为这是第二次试图部署（悲）可以在被报错信息攻击前提前绕过错误。</p><ul><li><a href="https://github.com/hexojs/hexo/issues/4757">Can’t deploy to github even though I have personal token in the _config.yml · Issue #4757 · hexojs&#x2F;hexo</a></li></ul><p>如果是初次设置SSH密钥，请直接询问gpt：如何在github上设置ssh key</p><blockquote><p>一个未解决的问题是不会用git，不知道怎么分离写作分支和部署分支，配置文件里暂时设置的是main。</p></blockquote><blockquote><p>另一个问题是，不知道是否必需公开 GitHub 仓库才能使用page？不清楚原理，有很多问题</p></blockquote><h2 id="6-修改Theme配置内容"><a href="#6-修改Theme配置内容" class="headerlink" title="6 修改Theme配置内容"></a>6 修改Theme配置内容</h2><p>给自己的初版留个纪念</p><p><img src="/2024/06/28/%E4%BD%BF%E7%94%A8Hexo-GitHub-page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/image-20240628105646472.png" alt="image-20240628105646472"></p><h2 id="7-图片解析"><a href="#7-图片解析" class="headerlink" title="7 图片解析"></a>7 图片解析</h2><ul><li><a href="https://hexo.io/zh-cn/docs/asset-folders#%E4%BD%BF%E7%94%A8-Markdown-%E5%B5%8C%E5%85%A5%E5%9B%BE%E7%89%87">资源文件夹 | Hexo</a></li></ul><p>这里其实还是个蛮头疼的地方，想要网站里图片正常显示，在 Typora 的编辑器里，就看不到图片了……暂时还没有解决这个问题。</p><p><img src="/2024/06/28/%E4%BD%BF%E7%94%A8Hexo-GitHub-page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/image-20240628111615694.png" alt="image-20240628111615694"></p><p>而在图片显示的部分，还有一个小插曲。我在第二次创建项目的时候，头昏脑胀地改了permalink的内容（也可能是我以为我改了，总之最后删成了只剩 <code>:title/</code> ）</p><p>此时开启 <code>_config.yml</code> 文件中的选项，自然无法起效。</p><h2 id="8-代码高亮"><a href="#8-代码高亮" class="headerlink" title="8 代码高亮"></a>8 代码高亮</h2><ul><li><a href="https://hexo.io/zh-cn/docs/syntax-highlight#PrismJS">代码高亮 | Hexo</a></li></ul><p>主题里的教程是过时的。</p><hr><p>基础配置的部分到此暂结，之后在另一篇文章里补充一点跟博文写作相关的内容。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> CS/其它 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CS/其它 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>写在前面</title>
+      <link href="/2024/06/27/Intro/"/>
+      <url>/2024/06/27/Intro/</url>
+      
+        <content type="html"><![CDATA[<p>结束大三下的最后一门考试后，实在不想即刻又投入到下一阶段的学习里，就把这个“个人博客”弄了出来，其实应该就只是个用来倒学习垃圾的地方。</p><p>从开始折腾到把网站成功上线用了3h，但这件事本身躺在我的任务列表里已经有一年半了。</p><img src="image-20240627200938924.png" alt="image-20240627200938924" style="zoom:50%;" /><p>最后倒也没有用上这个主题（笑）</p><p>印象里一年半以前想要弄一个个人博客时，愿望还很宏大，而这次仅仅是因为某一天在wsl的网络出现问题的时候，只花了不到10分钟就配好了终端代理，结束时恍惚地想到，在年初我还因为相同的问题重装了一次电脑……（那时候甚至没意识到不同的shell之间语法有区别）</p><p>现在想想当时真是蠢的不可思议。而没有被我记住的愚蠢时刻，应该还有很多吧。</p><p>抱着这样的想法，我翻到了notion里的这一条记录，想起了当时不知道出于什么原因选择了Hexo做框架，去官网找到了过时已久，满是错误的doc 😅，完结了这个拖延已久的任务。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
